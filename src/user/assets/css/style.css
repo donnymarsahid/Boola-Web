@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+  --black: #3d3d3d;
+  --primary: #fecf28;
+  --gradient: linear-gradient(#fecf28, #ffb342);
+}
+
+* {
+  font-family: 'Poppins', sans-serif;
+  color: var(--black);
+}
+
+/* Navbar Start */
+nav {
+  background-color: white;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+}
+
+nav .container-navbar {
+  width: 90%;
+}
+
+nav .navbar-link ul,
+nav .navbar-link ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav .navbar-link ul li {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 40px 0 0;
+  align-items: center;
+  cursor: pointer;
+}
+
+nav .navbar-link ul li.link::after {
+  content: '';
+  background-color: var(--primary);
+  width: 0;
+  display: block;
+  border-radius: 3px;
+  height: 3px;
+  margin: auto;
+  transition: 0.2s;
+}
+nav .navbar-link ul li.link:hover::after {
+  content: '';
+  width: 50%;
+}
+
+nav .navbar-link ul li button {
+  background: var(--gradient);
+  border-radius: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  width: 162px;
+  height: 37px;
+}
+nav .navbar-link ul li button:hover {
+  background: var(--primary);
+  color: white;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+/* Navbar End */
+
+/* Header Start*/
+header {
+  width: 100%;
+  height: 510px;
+  margin-top: 100px;
+  background-image: var(--gradient);
+}
+header .container-header {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+header .content,
+header .image-header {
+  width: 50%;
+}
+header .content h2,
+header .content h3 {
+  color: white;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+header .content h2 {
+  font-size: 30px;
+}
+header .content h3 {
+  font-size: 18px;
+}
+header .image-header img {
+  width: 100%;
+}
+header .content .button button {
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 18px 28px;
+  background-color: transparent;
+  border: 2px solid white;
+  transition: 0.2s;
+}
+header .content .button button:hover {
+  color: var(--black);
+  background-color: white;
+  border: 2px solid white;
+}
+header .content .button img {
+  margin-bottom: -5px;
+  padding-right: 5px;
+}
+/* Header End*/
+
+/* Section Start */
+section {
+  width: 100%;
+  margin-top: 137px;
+}
+
+section .container-section {
+  width: 90%;
+  margin: auto;
+}
+section .container-section .box {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.24);
+  height: 335px;
+  border-radius: 10px;
+  cursor: pointer;
+  transform: scale(0.98);
+  transition: 0.2s;
+}
+section .container-section .box:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.24);
+  height: 335px;
+  border-radius: 10px;
+  transform: scale(1);
+}
+section .container-section .box h3 {
+  font-size: 20px;
+}
+section .container-section .box p {
+  font-size: 14px;
+}
+/* Section End */
+
+/* Promo Start */
+.promo {
+  margin-top: 150px;
+  background-image: url('../img/bg-promo.png');
+  height: 391px;
+  width: 100%;
+  background-size: cover;
+}
+.promo .container-promo {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+.promo h2 {
+  font-size: 30px;
+  color: white;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.promo h3 {
+  font-size: 18px;
+  color: white;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+/* Promo End */
+
+/* HowWork Start */
+.how-work {
+  margin-top: 150px;
+}
+.how-work .container-how-work {
+  width: 90%;
+  margin: auto;
+}
+.how-work p.text-center {
+  margin-bottom: 100px;
+}
+.how-work .row {
+  margin-top: 50px;
+}
+.how-work .col-md-5 img {
+  width: 466px;
+}
+.how-work .col-md-7 h3 {
+  font-size: 24px;
+}
+.how-work .col-md-7.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.how-work .col-md-7 p {
+  font-size: 14px;
+}
+.how-work .col-md-5,
+.how-work .col-md-7 {
+  margin-bottom: 80px;
+}
+/* HowWork End */
+
+/* Mitra Start */
+.mitra {
+  background-image: url('../img/bg-mitra.png');
+  height: 391px;
+  width: 100%;
+  margin-top: 150px;
+  background-size: cover;
+}
+.mitra .container-mitra {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+.mitra .container-mitra h2,
+.mitra .container-mitra h3 {
+  color: white;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+.mitra .container-mitra h3 {
+  font-size: 18px;
+}
+.mitra .container-mitra h2 {
+  font-size: 24px;
+}
+.mitra button {
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 18px 28px;
+  background-color: transparent;
+  border: 2px solid white;
+  transition: 0.2s;
+  width: 20%;
+  margin-top: 20px;
+  transition: 0.2s;
+}
+.mitra button:hover {
+  color: var(--black);
+  background-color: white;
+  border: 2px solid white;
+}
+/* Mitra End */
+
+/* Footer Start */
+footer {
+  width: 100%;
+  height: 350px;
+  background-color: var(--black);
+  margin-top: 150px;
+}
+
+footer p {
+  font-weight: 400;
+  color: white;
+  font-size: 14px;
+}
+
+footer .container-footer {
+  width: 90%;
+  margin: auto;
+}
+
+footer .container-footer .col-md-4.footer-menu {
+  text-align: end;
+}
+footer .container-footer .col-md-4.footer-menu ul li {
+  list-style: none;
+}
+footer i {
+  color: white;
+  font-size: 28px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid white;
+  padding: 8px;
+  margin: 8px;
+}
+/* Footer End */
+
+/* PopUp Start */
+.popup {
+  visibility: hidden !important;
+}
+.popup.show {
+  visibility: visible !important;
+  background-color: var(--black);
+  height: 106px;
+  margin-top: 100px;
+  width: 100%;
+}
+body .popup.close {
+  visibility: hidden !important;
+}
+.popup.show .container-popup {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+}
+.popup.show .container-popup h2 {
+  font-size: 18px;
+  color: white;
+}
+.popup.show .container-popup h3 {
+  font-size: 16px;
+  color: white;
+}
+.popup.show button {
+  font-weight: 500;
+  color: white;
+  border-radius: 5px;
+  background: var(--gradient);
+  border: none;
+  padding: 12px 16px;
+}
+.popup.show .button-download p {
+  font-weight: 500;
+  color: white;
+  margin: 0;
+  font-size: 18px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid white;
+  padding: 5px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.popup.show .button-download p:hover {
+  color: var(--black);
+  background-color: white;
+  border: 2px solid white;
+}
+/* PopUp End */

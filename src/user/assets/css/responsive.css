@@ -1,0 +1,519 @@
+:root {
+  --black: #3d3d3d;
+  --primary: #fecf28;
+  --gradient: linear-gradient(#fecf28, #ffb342);
+}
+
+/* Mobile Small */
+@media (max-width: 375px) {
+  nav .offcanvas {
+    width: 80%;
+  }
+  body header .content h2 {
+    font-size: 18px;
+  }
+  body header .content h3 {
+    font-size: 11px;
+  }
+  body header {
+    height: 550px;
+  }
+  body .how-work .col-md-7 h3 {
+    font-size: 16px;
+  }
+  body .popup.show .container-popup h2 {
+    font-size: 12px;
+  }
+  body .popup.show .container-popup h3 {
+    font-size: 10px;
+  }
+  body .popup.show .container-popup .button-download button {
+    height: 40px;
+  }
+}
+/* Mobile */
+@media (max-width: 575px) {
+  nav {
+    height: 70px;
+  }
+  nav .logo img {
+    width: 75px;
+  }
+  nav .navbar-link {
+    display: none;
+  }
+  nav .offcanvas {
+    width: 75%;
+  }
+  nav .hamburger-menu i {
+    font-size: 24px;
+    color: var(--black);
+  }
+  nav .offcanvas ul li {
+    padding-bottom: 20px;
+    font-weight: 500;
+  }
+  nav .offcanvas .offcanvas-body ul li,
+  nav .offcanvas .offcanvas-body ul li button {
+    font-size: 12px;
+    list-style: none;
+  }
+  nav .offcanvas .offcanvas-body ul li button {
+    background: var(--gradient);
+    border-radius: 3px;
+    width: 132px;
+    height: 27px;
+    border: none;
+    color: white;
+  }
+  header {
+    margin-top: 70px;
+    text-align: center;
+    height: 650px;
+  }
+  header .container-header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+  }
+  header .content,
+  header .image-header {
+    width: 100%;
+  }
+  header .image-header {
+    margin-top: 15px;
+  }
+  header .content h2 {
+    font-size: 24px;
+  }
+  header .content h3 {
+    font-size: 12px;
+  }
+  header .button img {
+    width: 200px;
+  }
+  header .image-header {
+    margin-top: 40px;
+  }
+  body header .button button {
+    padding: 15px 25px !important;
+    font-size: 14px;
+  }
+  section .container-section p.text-center {
+    font-size: 14px;
+  }
+  .promo {
+    margin-top: 150px;
+    background-image: url('../img/bg-promo-mobile.png');
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+  }
+  .promo h2 {
+    font-size: 14px;
+  }
+  .promo h3 {
+    font-size: 12px;
+  }
+  .how-work h3.text-center {
+    font-size: 24px;
+  }
+  .how-work p.text-center {
+    font-size: 14px;
+  }
+  .how-work .col-md-5 {
+    width: 100%;
+  }
+  .how-work .col-md-5 img {
+    width: 100%;
+  }
+
+  .how-work .col-md-7 h3 {
+    font-size: 18px;
+  }
+  .how-work .col-md-7 p {
+    font-size: 12px;
+  }
+  .mitra .container-mitra h2 {
+    font-size: 14px;
+  }
+  .mitra .container-mitra h3 {
+    font-size: 12px;
+  }
+  .mitra button {
+    font-size: 14px;
+    padding: 15px 15px;
+    width: 50%;
+  }
+  .mitra {
+    background-image: url('../img/bg-mitra-mobile.png');
+    height: 391px;
+    width: 100%;
+    margin-top: 150px;
+    background-size: cover;
+  }
+  footer {
+    height: 550px;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  footer .col-md-4.sosmed i {
+    font-size: 16px;
+    margin: 3px;
+  }
+  footer .container-footer .row .col-md-4.call,
+  footer .container-footer .row .col-md-4.sosmed {
+    width: 50%;
+  }
+  footer .container-footer .row .col-md-4.footer-menu {
+    width: 100%;
+    text-align: start;
+    margin-top: 50px;
+  }
+  footer .col-md-4.footer-menu ul {
+    padding: 0;
+  }
+  .popup.show {
+    margin-top: 70px;
+    height: 130px;
+  }
+  .popup.show .container-popup h2 {
+    font-size: 14px;
+  }
+  .popup.show .container-popup {
+    display: flex;
+    flex-direction: column;
+  }
+  .popup.show .container-popup h3 {
+    font-size: 12px;
+  }
+  .popup.show .button-download {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .popup.show .button-download button {
+    font-size: 11px;
+    width: 140px;
+    height: 50px;
+    padding: 0;
+  }
+  .popup.show .button-download p {
+    font-size: 14px;
+    padding: 2px;
+    width: 25px;
+    height: 25px;
+  }
+  .popup.show .button-download .close.d-flex {
+    margin: 0 0 0 5px !important;
+  }
+}
+
+/* Mobile To Tablet */
+@media (min-width: 576px) and (max-width: 767px) {
+  nav {
+    height: 70px;
+  }
+  nav .logo img {
+    width: 75px;
+  }
+  nav .navbar-link {
+    display: none;
+  }
+  nav .offcanvas {
+    width: 75%;
+  }
+  nav .hamburger-menu i {
+    font-size: 24px;
+    color: var(--black);
+  }
+  nav .offcanvas ul li {
+    padding-bottom: 20px;
+    font-weight: 500;
+  }
+  nav .offcanvas .offcanvas-body ul li,
+  nav .offcanvas .offcanvas-body ul li button {
+    font-size: 12px;
+    list-style: none;
+  }
+  nav .offcanvas .offcanvas-body ul li button {
+    background: var(--gradient);
+    border-radius: 3px;
+    width: 132px;
+    height: 27px;
+    border: none;
+    color: white;
+  }
+  header {
+    margin-top: 70px;
+    text-align: center;
+    height: 650px;
+  }
+  header .container-header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 35px;
+  }
+  header .content,
+  header .image-header {
+    width: 100%;
+  }
+  header .image-header {
+    margin-top: 15px;
+  }
+  header .content h2 {
+    font-size: 24px;
+  }
+  header .content h3 {
+    font-size: 12px;
+  }
+  header .button img {
+    width: 200px;
+  }
+  body header .button button {
+    padding: 15px 25px !important;
+    font-size: 14px;
+  }
+  section .container-section p.text-center {
+    font-size: 14px;
+  }
+  section .col-md-4 {
+    width: 50%;
+  }
+  section .col-md-4 .box p {
+    font-size: 12px;
+  }
+  .promo {
+    margin-top: 150px;
+    background-image: url('../img/bg-promo-mobile-lg.png');
+    height: 390px;
+    width: 100%;
+    background-size: cover;
+  }
+  .promo h2 {
+    font-size: 14px;
+  }
+  .promo h3 {
+    font-size: 12px;
+  }
+  .how-work h3.text-center {
+    font-size: 24px;
+  }
+  .how-work p.text-center {
+    font-size: 14px;
+  }
+  .how-work .col-md-5 {
+    width: 100%;
+  }
+  .how-work .col-md-5 img {
+    width: 100%;
+  }
+  .mitra .container-mitra h2 {
+    font-size: 20px;
+  }
+  .mitra .container-mitra h3 {
+    font-size: 16px;
+  }
+  .mitra button {
+    font-size: 14px;
+    padding: 15px 15px;
+    width: 30%;
+  }
+  .mitra {
+    background-image: url('../img/bg-mitra-mobile-lg.png');
+    height: 391px;
+    width: 100%;
+    margin-top: 150px;
+    background-size: cover;
+  }
+  footer {
+    height: 550px;
+  }
+  footer .container-footer .row .col-md-4.call,
+  footer .container-footer .row .col-md-4.sosmed {
+    width: 50%;
+  }
+  footer .container-footer .row .col-md-4.footer-menu {
+    width: 100%;
+    text-align: start;
+    margin-top: 50px;
+  }
+  footer .col-md-4.footer-menu ul {
+    padding: 0;
+  }
+  .popup.show {
+    margin-top: 70px;
+  }
+  .popup.show .container-popup h2 {
+    font-size: 16px;
+  }
+  .popup.show .container-popup h3 {
+    font-size: 12px;
+  }
+  .popup.show .button-download button {
+    font-size: 12px;
+    padding: 0 5px;
+  }
+  .popup.show .button-download p {
+    font-size: 16px;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  nav {
+    height: 90px;
+  }
+  nav .logo img {
+    width: 78px;
+  }
+  nav .navbar-link ul li {
+    font-size: 12px;
+    padding: 0 25px 0 0;
+  }
+  nav .navbar-link ul li button {
+    font-size: 12px;
+    width: 140px;
+    height: 35px;
+  }
+  nav .hamburger-menu,
+  nav .offcanvas {
+    display: none !important;
+  }
+  nav .navbar-link ul li.link {
+    padding: 8px 25px 0 0;
+  }
+  header {
+    height: 450px;
+    margin-top: 90px;
+  }
+  header .content .button img {
+    margin-left: -5px;
+    width: 200px;
+  }
+  header .content .button button {
+    font-size: 14px;
+    padding: 15px 20px;
+  }
+  header .content h2 {
+    font-size: 20px;
+  }
+  header .content h3 {
+    font-size: 12px;
+  }
+  section .col-md-4 {
+    width: 50%;
+  }
+  .promo {
+    margin-top: 150px;
+    background-image: url('../img/bg-promo-tablet.png');
+    height: 391px;
+    width: 100%;
+    background-size: cover;
+  }
+  .promo h2 {
+    font-size: 24px;
+  }
+  .promo h3 {
+    font-size: 13px;
+  }
+  .how-work .col-md-5 img {
+    width: 290px;
+  }
+  .how-work .col-md-7 h3 {
+    font-size: 18px;
+  }
+  .how-work .col-md-7 p {
+    font-size: 12px;
+  }
+  .mitra .container-mitra h2 {
+    font-size: 20px;
+  }
+  .mitra .container-mitra h3 {
+    font-size: 16px;
+  }
+  .mitra button {
+    font-size: 14px;
+    padding: 15px 15px;
+    width: 30%;
+  }
+  .mitra {
+    background-image: url('../img/bg-mitra-tablet.png');
+    height: 391px;
+    width: 100%;
+    margin-top: 150px;
+    background-size: cover;
+  }
+  footer p {
+    font-size: 12px;
+  }
+  footer i {
+    font-size: 18px;
+  }
+  .popup.show {
+    margin-top: 90px;
+  }
+  .popup.show .container-popup h2 {
+    font-size: 16px;
+  }
+  .popup.show .container-popup h3 {
+    font-size: 12px;
+  }
+  .popup.show .button-download button {
+    font-size: 14px;
+  }
+  .popup.show .button-download p {
+    font-size: 16px;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  nav .hamburger-menu,
+  nav .offcanvas {
+    display: none !important;
+  }
+  nav .navbar-link ul li.link {
+    padding: 10px 40px 0 0;
+  }
+  header .content .button img {
+    margin-left: -5px;
+  }
+  .promo {
+    margin-top: 150px;
+    background-image: url('../img/bg-promo-desktop-lg.png');
+    height: 391px;
+    width: 100%;
+    background-size: cover;
+  }
+  .how-work .col-md-5 img {
+    width: 350px;
+  }
+  .mitra {
+    background-image: url('../img/bg-mitra-desktop-lg.png');
+    height: 391px;
+    width: 100%;
+    margin-top: 150px;
+    background-size: cover;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  nav .hamburger-menu,
+  nav .offcanvas {
+    display: none !important;
+  }
+  nav .navbar-link ul li.link {
+    padding: 10px 40px 0 0;
+  }
+  header .content .button img {
+    margin-left: -5px;
+  }
+}

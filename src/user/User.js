@@ -109,7 +109,8 @@ const User = () => {
       <div class="promo">
         <div class="container-promo d-flex flex-column justify-content-center">
           <h2>DAPATKAN POTONGAN HARGA HINGGA 10%</h2>
-          <h3>DENGAN MELAKUKAN BOOKING SAMPAI DENGAN 3X SECARA ONLINE DIAPLIKASI BOOLA</h3>
+          <h3 class="mb-3">DENGAN MELAKUKAN BOOKING SAMPAI DENGAN 3X SECARA ONLINE DIAPLIKASI BOOLA</h3>
+          <button>DOWNLOAD SEKARANG</button>
         </div>
       </div>
       <div class="how-work">

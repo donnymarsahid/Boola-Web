@@ -165,6 +165,22 @@ section .container-section .box p {
   margin: auto;
   height: 100%;
 }
+
+.promo button {
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  border: 2px solid white;
+  width: 20%;
+  padding: 15px 10px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.promo button:hover {
+  background-color: white;
+  color: var(--black);
+  border: 2px solid white;
+}
 .promo h2 {
   font-size: 30px;
   color: white;

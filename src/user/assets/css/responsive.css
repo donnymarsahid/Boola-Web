@@ -10,16 +10,36 @@
     width: 80%;
   }
   body header .content h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
   body header .content h3 {
-    font-size: 11px;
+    font-size: 11.1px;
   }
   body header {
     height: 550px;
   }
+  body .promo h3 {
+    font-size: 12px;
+  }
+  body .promo button {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    width: 60%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+    font-size: 12px;
+  }
   body .how-work .col-md-7 h3 {
     font-size: 16px;
+  }
+  body .mitra .container-mitra h2 {
+    font-size: 18px;
+  }
+  body .mitra button {
+    width: 60%;
   }
   body .popup.show .container-popup h2 {
     font-size: 12px;
@@ -61,10 +81,14 @@
   nav .offcanvas .offcanvas-body ul li button {
     background: var(--gradient);
     border-radius: 3px;
-    width: 132px;
-    height: 27px;
+    width: 140px;
+    height: 37px;
     border: none;
     color: white;
+    padding: 10px 10px;
+  }
+  header .container-header {
+    width: 96%;
   }
   header {
     margin-top: 70px;
@@ -85,12 +109,15 @@
   }
   header .content h2 {
     font-size: 24px;
+    font-weight: 600;
   }
   header .content h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
   header .button img {
     width: 200px;
+    margin-left: 8px;
+    margin-bottom: -7px !important;
   }
   header .image-header {
     margin-top: 40px;
@@ -109,11 +136,22 @@
     width: 100%;
     background-size: cover;
   }
+  .promo button {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    width: 45%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+    font-size: 12px;
+  }
   .promo h2 {
-    font-size: 14px;
+    font-size: 20px;
   }
   .promo h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .how-work h3.text-center {
     font-size: 24px;
@@ -135,10 +173,10 @@
     font-size: 12px;
   }
   .mitra .container-mitra h2 {
-    font-size: 14px;
+    font-size: 20px;
   }
   .mitra .container-mitra h3 {
-    font-size: 12px;
+    font-size: 14px;
   }
   .mitra button {
     font-size: 14px;
@@ -173,6 +211,9 @@
   }
   footer .col-md-4.footer-menu ul {
     padding: 0;
+  }
+  .popup.show {
+    z-index: 1;
   }
   .popup.show {
     margin-top: 70px;
@@ -228,6 +269,7 @@
     font-size: 24px;
     color: var(--black);
   }
+
   nav .offcanvas ul li {
     padding-bottom: 20px;
     font-weight: 500;
@@ -240,20 +282,21 @@
   nav .offcanvas .offcanvas-body ul li button {
     background: var(--gradient);
     border-radius: 3px;
-    width: 132px;
-    height: 27px;
+    width: 150px;
+    height: 40px;
     border: none;
     color: white;
   }
   header {
     margin-top: 70px;
     text-align: center;
-    height: 650px;
+    height: 670px;
   }
   header .container-header {
     display: flex;
     flex-direction: column;
     padding-top: 35px;
+    width: 95%;
   }
   header .content,
   header .image-header {
@@ -263,10 +306,10 @@
     margin-top: 15px;
   }
   header .content h2 {
-    font-size: 24px;
+    font-size: 26px;
   }
   header .content h3 {
-    font-size: 12px;
+    font-size: 16px;
   }
   header .button img {
     width: 200px;
@@ -292,10 +335,21 @@
     background-size: cover;
   }
   .promo h2 {
+    font-size: 24px;
+  }
+  .promo button {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    width: 35%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    transition: 0.2s;
     font-size: 14px;
   }
   .promo h3 {
-    font-size: 12px;
+    font-size: 16px;
   }
   .how-work h3.text-center {
     font-size: 24px;
@@ -341,6 +395,9 @@
   }
   footer .col-md-4.footer-menu ul {
     padding: 0;
+  }
+  .popup.show {
+    z-index: 1;
   }
   .popup.show {
     margin-top: 70px;
@@ -400,10 +457,10 @@
     padding: 15px 20px;
   }
   header .content h2 {
-    font-size: 20px;
+    font-size: 24px;
   }
   header .content h3 {
-    font-size: 12px;
+    font-size: 13px;
   }
   section .col-md-4 {
     width: 50%;
@@ -414,6 +471,16 @@
     height: 391px;
     width: 100%;
     background-size: cover;
+  }
+  .promo button {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    width: 30%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    transition: 0.2s;
   }
   .promo h2 {
     font-size: 24px;
@@ -474,6 +541,7 @@
   }
 }
 
+/* Desktop Small */
 @media (min-width: 992px) and (max-width: 1199px) {
   nav .hamburger-menu,
   nav .offcanvas {
@@ -492,6 +560,16 @@
     width: 100%;
     background-size: cover;
   }
+  .promo button {
+    background-color: transparent;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    width: 25%;
+    padding: 15px 10px;
+    border-radius: 5px;
+    transition: 0.2s;
+  }
   .how-work .col-md-5 img {
     width: 350px;
   }
@@ -504,7 +582,7 @@
   }
 }
 
-/* Desktop */
+/* Desktop etc*/
 @media (min-width: 1200px) {
   nav .hamburger-menu,
   nav .offcanvas {
@@ -515,5 +593,8 @@
   }
   header .content .button img {
     margin-left: -5px;
+  }
+  header h3 {
+    margin-bottom: 20px;
   }
 }

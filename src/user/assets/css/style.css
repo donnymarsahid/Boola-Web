@@ -303,6 +303,23 @@ footer i {
   border: 2px solid white;
   padding: 8px;
   margin: 8px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+footer i:hover {
+  color: var(--black);
+  background-color: white;
+  border: 2px solid white;
+}
+footer a,
+footer .link-footer {
+  text-decoration: none;
+  color: white;
+}
+footer a:hover,
+footer .link-footer p:hover {
+  text-decoration: none;
+  color: var(--primary);
 }
 /* Footer End */
 

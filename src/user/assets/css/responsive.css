@@ -87,6 +87,12 @@
     color: white;
     padding: 10px 10px;
   }
+  nav .link-navbar-mobile {
+    text-decoration: none;
+  }
+  nav .link-navbar-mobile li:hover {
+    color: var(--primary);
+  }
   header .container-header {
     width: 96%;
   }
@@ -258,6 +264,12 @@
   }
   nav .logo img {
     width: 75px;
+  }
+  nav .link-navbar-mobile {
+    text-decoration: none;
+  }
+  nav .link-navbar-mobile li:hover {
+    color: var(--primary);
   }
   nav .navbar-link {
     display: none;

@@ -45,7 +45,7 @@ const User = () => {
               BOOKING LAPANGAN OLAHRAGA MUDAH DAN SIMPLE <br /> TENTUKAN TANGGAL DAN WAKTUNYA
             </h3>
             <div class="button">
-              <img src={btnPlaystore} alt="playstore" />
+              <img src={btnPlaystore} alt="playstore" style={{ cursor: 'pointer' }} />
               <button>GABUNG SEKARANG</button>
             </div>
           </div>
